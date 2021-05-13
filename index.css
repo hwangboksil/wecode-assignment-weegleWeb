@@ -8,8 +8,23 @@ div {
 
 input {
   height: 30px;
-  width: 80%;
+  width: 70%;
   border: 1px solid #bbb;
   border-radius: 20px;
   padding: 20px;
+  outline: none;
+}
+
+i {
+  position: absolute;
+}
+
+.grayBox div {
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 200px;
+  height: 80px;
+  background-color: rgba(187, 187, 187, 0.2);
 }
